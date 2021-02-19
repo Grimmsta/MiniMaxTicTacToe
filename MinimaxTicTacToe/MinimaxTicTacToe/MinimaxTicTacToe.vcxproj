@@ -139,10 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MinimaxTicTacToe.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minimax.cpp" />
+    <ClCompile Include="WinConditions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Minimax.h" />
+    <ClInclude Include="Move.h" />
     <ClInclude Include="TicTacToeVariables.h" />
+    <ClInclude Include="WinConditions.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
